@@ -1,4 +1,6 @@
 // Variablen
+a = 50;
+var b;                      // undefined
 var zahl = 100;
 var txt = "Text";
 var zahl2 = 100, zahl3;     // zahl3 ist undefiniert
