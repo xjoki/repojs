@@ -1,0 +1,12 @@
+Zeichen Maskierung  Bedeutung 
+-----------------------------
+<       &lt;        less than
+>       &gt;        greater than
+ä       &auml;      a Umlaut
+Ä       &Auml;      A Umlaut
+ö       &ouml;      o Umlaut
+Ö       &Ouml;      O Umlaut
+ü       &uuml;      u Umlaut
+Ü       &Uuml;      U Umlaut
+ß       &szlig;
+"       &quot;      quotation
