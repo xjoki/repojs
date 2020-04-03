@@ -17,3 +17,8 @@ console.log(beispiel_variable);
 console.log(beispiel_variable2);
 console.log(avg(1050,54).toFixed(2));
 
+// Anonyme Funktion an Variable
+var myAnFunc = function(a) {
+    return a * a;
+};  // <-- Semikolon !
+console.log(myAnFunc(5));   // 25
