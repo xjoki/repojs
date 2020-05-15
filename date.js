@@ -1,6 +1,6 @@
 // datum
 
-theDate = new Date();
+let theDate = new Date();           // Datum und Uhrzeit
 console.log(theDate);
 
 console.log(theDate.getDay());      // Tag (0=Sonntag ... 6=Samstag)
@@ -11,3 +11,8 @@ console.log(theDate.getHours());    // Stunden
 console.log(theDate.getMinutes());  // Minuten
 console.log(theDate.getSeconds());  // Sekunden
 console.log(theDate.getTimezoneOffset());   // Unterschied zu GMT in Minuten
+
+// Datum erzeugen
+// Fri Dec 31 1999 00:00:00
+let myDate = new Date(1999,11,31,0,0,0);
+myDate = new Date("December 31, 1999 00:00:00");
