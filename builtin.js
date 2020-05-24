@@ -6,7 +6,7 @@ console.log(esc_txt);           // "Dies%20ist%20eine%20Zeichenkette."
 console.log(unescape(esc_txt)); // "Dies ist eine Zeichenkette."
 
 var ctxt = "3+4";
-console.log(eval(ctxt));        // 7
+console.log(eval(ctxt));        // 7   eval : bad practice
 
 var ntxt1 = "34.3";
 var ntxt2 = "abc";
