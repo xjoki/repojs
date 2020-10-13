@@ -1,6 +1,6 @@
 // datum
 
-let theDate = new Date();           // Datum und Uhrzeit
+let theDate = new Date();           // aktuelles Datum und Uhrzeit
 console.log(theDate);
 
 console.log(theDate.getDay());      // Tag (0=Sonntag ... 6=Samstag)
@@ -11,6 +11,7 @@ console.log(theDate.getHours());    // Stunden
 console.log(theDate.getMinutes());  // Minuten
 console.log(theDate.getSeconds());  // Sekunden
 console.log(theDate.getTimezoneOffset());   // Unterschied zu GMT in Minuten
+console.log(theDate.getFullYear()); // Jahr im Format JJJJ
 
 // Datum erzeugen
 // Fri Dec 31 1999 00:00:00
